@@ -1,0 +1,21 @@
+.question-container:not(:first-of-type) {
+  display: none;
+}
+h1 {
+  text-align: center;
+}
+.question-option {
+  background: purple;
+  color: white;
+}
+#clock {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#ending {
+  display: none;
+}
+#quiz {
+  display: none;
+}
